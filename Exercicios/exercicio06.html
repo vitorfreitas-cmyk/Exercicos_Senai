@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Televivo - Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Localização de autos do dito</h1>
+        <img src="img/fusca.jpg" alt="image1" width="250" height="150">
+        <p>Há 45 anos atuando na área de locação de veiculos com segurança e garantia de satisfação. temos os melhores preços e modelos do mercado</p>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h3>Analíse de cadastro</h3>
+            <p>Preencha os campos abaixo e analisaremos seus dados.<br>Se tudo estiver correto ligaremos para marcar uma visita.</p>
+            <form method="post" action="#">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <label>Nome</label>
+                    <input type="text" name="nome" placeholder="digite seu nome" required>
+                    <label>data de nascimento</label>
+                    <input type="date" name="data de nascimento" required>
+                    <label>Telefone</label>
+                    <input type="tel" name="telefone" placeholder="(xx) xxxxx-xxxxx" required>
+                </fieldset>
+                <fieldset>
+                    <legend>CNH</legend>
+                    <label>numero do registro</label>
+                    <input type="number" name="numero do registro" placeholder="informe o número da sua CNH" required>
+                    <label>validade</label>
+                    <input type="date" name="validade" required>
+                </fieldset>
+                <fieldset>
+                    <legend>carro</legend>
+                    <label>Modelo de carro</label>
+                    <select name="carro" required>
+                        <option value="">Escolha um carro</option>
+                        <optgroup label="volkswagem">
+                            <option value="gol">Gol</option>
+                            <option value="golf">Golf</option>
+                            <option value="fox">Fox</option>
+                        </optgroup>
+                        <optgroup label="fiat">
+                            <option value="uno">uno</option>
+                            <option value="siena">Siena</option>
+                            <option value="Palio">Palio</option>
+                        </optgroup>
+                        <optgroup label="Nissan">
+                            <option value="frontier">frontier</option>
+                            <option value="Versa">Versa</option>
+                            <option value="skyline">Skyline GT-R</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <br>
+                <button type="submit">Enviar Dados</button>
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright 2023 - locação de Autos do Dito</p>
+    </footer>
+</body>
+</html>
