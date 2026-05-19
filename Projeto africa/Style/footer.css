@@ -1,0 +1,78 @@
+/* ===== RODAPÉ ===== */
+
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ccc;
+    padding: 40px 60px;
+}
+
+/* Container interno */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* Logo */
+.footer-logo {
+    max-width: 220px;
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.footer-logo h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Colunas */
+.footer-coluna {
+    min-width: 180px;
+}
+
+/* Títulos */
+.footer-coluna h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/* Lista */
+.footer-coluna ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-coluna ul li {
+    margin-bottom: 10px;
+}
+
+/* Links */
+.footer-coluna a {
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+    transition: 0.3s;
+}
+
+.footer-coluna a:hover {
+    color: hsl(0, 84%, 27%);
+}
+
+/* Redes */
+.footer-social {
+    font-size: 18px;
+}
